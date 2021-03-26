@@ -14,6 +14,7 @@ _set_bot () {
    # rm -rf "$zippath"
    # cd $CATPATH
     cd telebot
+    mkdir bin
     chmod -R 755 bin
     echo "    Starting UserBot    "
    # python3 ../setup/updater.py ../requirements.txt requirements.txt
