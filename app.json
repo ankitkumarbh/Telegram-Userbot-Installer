@@ -99,6 +99,11 @@
    "value": "-1001367776652",
    "required": true
   },
+  "PLUGIN_CHANNEL": {
+   "description": "Plugin Channel.",
+   "value": "-1001367776652",
+   "required": false
+  },
   "HEROKU_APP_NAME": {
    "description": "The Value of App Name you filled in right on top.Required for updater to work.",
    "value": "ankitkumarbh3",
