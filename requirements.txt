@@ -60,6 +60,6 @@ urbandict
 validators
 wheel
 wikipedia>=1.4.0
-youtube-dl>=2021.4.17
+youtube-dl
 youtube-search-python
 youtube-search
