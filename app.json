@@ -101,7 +101,7 @@
   },
   "PLUGIN_CHANNEL": {
    "description": "Plugin Channel.",
-   "value": "-1001367776652",
+   "value": "-1001291941341",
    "required": false
   },
   "HEROKU_APP_NAME": {
