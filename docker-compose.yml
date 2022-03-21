@@ -18,4 +18,4 @@ services:
             ALIVE_NAME: $ALIVE_NAME
             MAX_SPAM: $MAX_SPAM
             TZ: $TZ
-            
+            ENV: $ENV
