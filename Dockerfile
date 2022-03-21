@@ -64,7 +64,7 @@ RUN git clone https://github.com/ankitkumarbh/Telegram-Userbot-Installer /root/t
 RUN mkdir /root/telebot/bin
 WORKDIR /root/telebot/
 RUN chmod +x /usr/local/bin/*
-ENV PATH="/home/telebot/bin:$PATH"
 RUN pip3 install -r requirements.txt
+ENV PATH="/home/telebot/bin:$PATH"
 
 CMD ["bash","start"]
