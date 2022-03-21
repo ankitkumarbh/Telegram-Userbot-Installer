@@ -60,11 +60,11 @@ RUN rm -r /root/.cache
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && apt install -y ./google-chrome-stable_current_amd64.deb && rm google-chrome-stable_current_amd64.deb
 RUN wget https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_linux64.zip && unzip chromedriver_linux64.zip && chmod +x chromedriver && mv -f chromedriver /usr/bin/ && rm chromedriver_linux64.zip
 RUN git clone https://github.com/ankitkumarbh/Telegram-Userbot-Installer /root/telebot
-# RUN mkdir /root/telebot
+
 RUN mkdir /root/telebot/bin
 WORKDIR /root/telebot/
 RUN chmod +x /usr/local/bin/*
 ENV PATH="/home/telebot/bin:$PATH"
 RUN pip3 install -r requirements.txt
-# CMD ["bash","./resources/startup.sh"]
+
 CMD ["bash","start"]
